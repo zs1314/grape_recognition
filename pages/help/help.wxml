@@ -1,0 +1,15 @@
+<view class="titleImg">
+  <image src="/images/logo.jpg"></image>
+  <view class="font">帮助</view>
+</view>
+<view class="lineYellow"></view>
+
+<view class="content">
+  <view class="title">您可能遇到的问题1：</view>
+  <view class="font">关于您清空图片的问题说明：在小程序暂时未添加删除按钮，可再次点击图片，即可重新上传并预测图片</view>
+
+  <view class="title">您可能遇到的问题2：</view>
+  <view class="font">关于您上传后一直显示“正在加载...”的状态问题：请查看您的网络问题，确保网络流畅，且模型预测图片需要一定时间，请耐心等待</view>
+</view>
+
+<view class="botton" style="color: gray; margin-top: 50rpx;text-align: center;font-size: 26rpx;">——2023/8/25 邹顺 编辑——</view>

@@ -1,0 +1,26 @@
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            Shiraz
+        </view>
+        <view class="cn">
+            西拉
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+    <view class="content">
+        <view class='small-title'>起源</view>
+        <view class="row">
+            关于它的起源，充满一些神秘色彩。世界上有超过一半的西拉种植于法国，容易使人联想到“Syria”，所以，有一种说法：“西拉”源自中东叙利亚；“西拉”又是澳大利亚的代表酿酒葡萄品种，在英语里称其为“Shiraz”，而“Shiraz”又是被称为波斯(今伊朗)的诗都，使人猜想它是来源于中东的伊朗。</view> 
+        <view class="small-title">形态特征 </view>
+        <view class="row">果穗中等大，平均穗重242.8克，圆锥或圆柱形，带歧肩，有副穗。果粒小，着生紧密，百粒重194克，圆形，兰黑色。果皮色素丰富，具有独特香气。含糖量206克/升，含酸量9.3克/升，出汁率73%。</view>
+        <view class="small-title">分布范围</view>
+        <view class="row">原产于于法国罗讷河谷，主要集中在北部，单宁丰厚有明显的黑胡椒、黑莓香气。澳大利亚是最广泛种植的品种并且有着相当优异的表现，在其它国家也有种植。中国在80年代引进试栽，山东、新疆、宁夏等地种植。</view>
+    </view>
+</view>

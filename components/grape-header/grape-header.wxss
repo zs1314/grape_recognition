@@ -1,0 +1,29 @@
+/* components/grape-header/grape-header.wxss */
+.header {
+    height: 120rpx;
+    border: 1px solid rgb(156, 179, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30rpx;
+  }
+  
+  .header .logo {
+    height: 100rpx;
+
+  }
+  
+  .header .phone{
+      height: 80rpx;
+  }
+  .header .phone .pic{
+    height:100%;
+
+}
+
+  .header .logo .pic {
+    height: 100%;
+    border-radius: 30rpx;
+  }
+
+  

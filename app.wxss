@@ -1,0 +1,48 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 首页的文化馆介绍的头部(属于公共) */
+.pubTitle{
+    text-align: center;
+}
+/* 英文部分 */
+.pubTitle .en{
+    font-size: 86rpx;
+    /* 加粗 */
+    font-weight: 900;
+    /* 转为大写 */
+    text-transform: uppercase;
+    color: var(--globalColor);
+    /* 透明度 */
+    opacity: 0.1;
+}
+/* 中文部分 */
+.pubTitle .cn{
+  font-size: 56rpx;
+  /* 加粗 */
+  font-weight: 900;
+  /* 向上移动 */
+  transform: translateY(-60rpx);
+}
+/* 一条线 */
+.pubTitle .line{
+  width: 100rpx;
+  height: 5rpx;
+  /* 这里其实相当把高度压缩，再加个背景颜色 */
+  background: var(--globalColor);
+  /* 透明度 */
+  opacity: 0.7;
+  /* 居中 */
+  display: inline-block;
+  text-align: center;
+  /* 向上移动 */
+  transform: translateY(-40rpx);
+}
+

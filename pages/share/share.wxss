@@ -1,0 +1,22 @@
+.image{
+  margin: 0 auto;
+  margin-top: 120rpx;
+}
+.image image{
+  border-radius: 35rpx;
+  width: 680rpx;
+  height: 1000rpx;
+  border: 8rpx solid rgba(0, 0, 0, 0.784);
+}
+
+.down{
+  text-align: center;
+}
+.down image{
+  width: 260rpx;
+  height: 180rpx;
+}
+.down .font{
+  font-size: 30rpx;
+  color: gray;
+}

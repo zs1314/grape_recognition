@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/predict/predict",
+    "pages/cam/cam",
+    "pages/user/user",
+    "pages/updateInformation/updateInformation",
+    "pages/help/help",
+    "pages/share/share",
+    "pages/grape1/grape1",
+    "pages/grape2/grape2",
+    "pages/grape3/grape3",
+    "pages/grape4/grape4",
+    "pages/grape5/grape5",
+    "pages/grape6/grape6",
+    "pages/grape7/grape7",
+    "pages/grape8/grape8",
+    "pages/grape9/grape9",
+    "pages/grape10/grape10",
+    "pages/grape11/grape11"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#17862B",
+    "navigationBarTitleText": "小葡萄",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#4C4D4E",
+    "selectedColor": "#BDA066",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home-fill.png"
+    },{
+      "pagePath": "pages/predict/predict",
+      "text": "识别",
+      "iconPath": "images/all.png",
+      "selectedIconPath": "images/all-fill.png"
+    },{
+      "pagePath": "pages/cam/cam",
+      "text": "CAM",
+      "iconPath": "images/hot.png",
+      "selectedIconPath": "images/hot-fill.png"
+    },{
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-fill.png"
+    }]
+  },
+  "usingComponents":{
+      "grape-header":"/components/grape-header/grape-header"
+  }
+}

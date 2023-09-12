@@ -1,0 +1,46 @@
+/* pages/grape11/grape11.wxss */
+/* pages/grape10/grape10.wxss */
+/* pages/grape9/grape9.wxss */
+/* pages/grape8/grape8.wxss */
+/* pages/grape7/grape7.wxss */
+/* pages/grape6/grape6.wxss */
+/* pages/grape5/grape5.wxss */
+/* pages/grape4/grape4.wxss */
+/* pages/grape3/grape3.wxss */
+/* pages/grape2/grape2.wxss */
+.about{
+    // 上下左右的间隔
+    padding: 90rpx 30rpx;
+    // 设置背景图片（放在我的云空间里）
+    background: url(https://mp-d21c176b-3992-44d8-ac36-2c25441f24b0.cdn.bspapp.com/img-巷子深/list1-img1.jpg);
+    background-size: cover;
+    // 内容
+    .content{
+        .small-title{
+            text-align: center;
+            font-size: 40rpx;
+            font-family: 'Courier New', Courier, monospace;
+            color: palevioletred;
+        }
+        // 每一部分的内容样式
+        .row{
+          line-height: 1.6em;
+          // 首行缩进
+          text-indent: 2em;
+          font-size: 32rpx;
+          padding: 20rpx 0;
+          // 底部的边界线（还是虚线）
+          border-bottom:1rpx dashed rgb(88, 126, 108) ;
+          // 字体颜色
+          color:  rgb(19, 19, 18);
+        }
+        // 单独控制一些不想要的
+        .row:first-child{
+            padding-top: 0;
+        }
+        .row:last-child{
+          padding-bottom: 0;
+          border-bottom: none;
+        }
+    }
+  }

@@ -1,0 +1,31 @@
+.titleImg{
+  display: flex;
+}
+.titleImg image{
+  width: 120rpx;
+  height: 120rpx;
+  margin: 35rpx;
+}
+.titleImg .font{
+  font-size: 38rpx;
+  margin-top: 65rpx;
+}
+
+.lineYellow{
+  background-color: #ffd23c;
+  height: 12rpx;
+  width: 80%;
+  margin-left:50rpx;
+}
+.content{
+  width: 87%;
+  margin: 0 auto;
+}
+.content .title{
+  font-size: 36rpx;
+  margin-top: 15rpx;
+}
+.content .font{
+  font-size: 28rpx;
+  color: gray;
+}

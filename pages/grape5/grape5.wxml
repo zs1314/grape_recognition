@@ -1,0 +1,26 @@
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            Merlot
+        </view>
+        <view class="cn">
+            梅洛
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+    <view class="content">
+        <view class='small-title'>形态特征</view>
+        <view class="row">
+            梅洛的果粒呈乌蓝色，体小皮薄，比赤霞珠(Cabernet Sauvignon)更为早熟，但收成时如果雨量过多容易腐烂。因为喜欢凉爽又能保水的土质，在波尔多右岸的圣埃米利永（Saint-Emilion）产区和波尔多产区的钙质黏土中有着极其出色的表现。波尔多产区传奇的柏图斯庄园（Pétrus)通常用95%的梅洛来酿制葡萄酒。[2] 在温度较高的法国南部朗格多克·鲁西荣（Languedoc-Rousillon）产区，自20世纪80年代引入以来，梅洛已成为最成功的“改良葡萄”，其品质大有改观。　梅洛酿制的葡萄酒颜色较深，有着红黑浆果（红樱桃，草莓，黑樱桃，黑醋栗）的丰富果香，在陈年过程中还会产生李子干、灌木丛、雪松和香料的诱人气息。好的梅洛的单宁丰润柔滑，充盈着丝绸的质感。所以它与刚强的赤霞珠相伴成为混酿刚中蕴柔的经典搭配，在波尔多尤为常见。</view>
+        <view class="small-title">分布范围 </view>
+        <view class="row">梅洛在法国，意大利，瑞士东欧和新世界的产区都有广泛种植，优秀的产区包括瑞士的提契诺（Ticino），法国的波尔多和朗格多克·鲁西荣（Languedoc-Roussillon），美国加州的纳帕谷（Napa Valley）和索诺玛（Sonoma），美国华盛顿州（Yakima Valley），美国纽约长岛的北福克（Long Island North Fork），南非的斯泰伦博斯（Stellenbosch），澳大利亚的玛格丽特河（Margaret River），智利的中央谷（Central Valley）等。</view>
+        <view class="small-title">种植区域</view>
+        <view class="row">美国、法国、意大利、智利、澳大利亚、南非、阿根廷</view>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+<!--components/grape-header/grape-header.wxml-->
+<view class="header">
+      <navigator url="/pages/index/index" class="logo">
+          <image src="/images/logo.jpg" mode="heightFix" class="pic"/>
+      </navigator>
+
+      <view class="search" class="phone">
+        <!-- <van-icon name="phone-o" bindtap="clickPhone"/> -->
+        <image src="/images/phone.png" mode="heightFix" class="pic" bindtap="clickPhone"></image>
+      </view>
+</view>

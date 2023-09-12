@@ -1,0 +1,27 @@
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            Sauvignon Blanc
+        </view>
+        <view class="cn">
+            长相思
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+    <view class="content">
+        <view class='small-title'>起源</view>
+        <view class="row">
+            作为一个芳香型的白葡萄品种，长相思（Sauvignon Blanc）的香气与红葡萄品种赤霞珠（Cabernet Sauvignon）有几分相似，都有类似于草本植物的香气。1997年，DNA检测证实品丽珠（Cabernet Franc）和长相思是赤霞珠的双亲，而在18世纪左右，长相思和品丽珠在波尔多（Bordeaux）葡萄园里自然杂交产生了赤霞珠，因此，长相思的起源地常被认为是波尔多。然而事实上，长相思最早于1534年在卢瓦尔河谷（Loire Valley）被提及。如今，奥地利进行的DNA检测进一步表明，长相思的起源可能与白诗南（Chenin Blanc）及塔明娜（Traminer）有关。</view>
+        <view class="small-title">特征 </view>
+        <view class="row">长相思最显著的特征是其十足的酸度，其次是其易于辨认的浓郁香气。在温和、尤其是凉爽的气候地区，长相思的表现最为出色，展现出浓郁、典型的绿色草本芳香，还经常伴有西番莲或接骨木花味。这一较早成熟的葡萄品种生命力尤为旺盛，因此需要在贫瘠的土壤上种植，并嫁接在低活力的砧木上，以控制其长势。</view>
+        <view class="small-title">生长环境</view>
+        <view class="row">长相思(Sauvignon Blanc) 原产自法国波尔多产区，适合温和的气候，特别喜欢生长在石灰质土上。主要用来制造多果味、早熟、简单易饮的干白葡萄酒。长相思(Sauvignon Blanc) 的酸味重，香味非常浓，常有一股青草味，也常会出现猫尿和百香果香味，偶尔会出现花香与火药味。长相思(Sauvignon Blanc) 适合采用低温浸皮法酿造，常出现芒果和凤梨果香。在法国，卢瓦尔河上游的桑赛尔（Sancerre）和布衣-富美（Pouilly-Fume）是最著名的产区，不混合其他品种。 波尔多以及西南部也很多，但常混和赛美容（Semillon）酿造，佩萨克-雷奥良（Pessac-Leognan）是最著名的产区，多经橡木桶发酵培养，圆润细致且耐久存。偶尔也酿造贵腐甜酒，但因香味太浓，只少量混合。
+</view>
+    </view>
+</view>

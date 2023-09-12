@@ -1,0 +1,180 @@
+<!--pages/index/index.wxml-->
+<grape-header></grape-header>
+<!-- 轮播图 -->
+<view class="banner">
+    <swiper previous-margin="30rpx" 	
+    circular 
+    autoplay 
+    interval="3000"
+    indicator-dots
+    indicator-color="#BDA066" 
+    indicator-active-color="rgba(214,124,223,10)">
+        <swiper-item>
+            <image style="width: 690rpx; height: 288rpx; display: inline-block; box-sizing: border-box" src="/images/banner0.jpg" mode=""/>
+        </swiper-item>
+
+        <swiper-item>
+            <image style="width: 690rpx; height: 288rpx; display: inline-block; box-sizing: border-box" src="/images/banner1.jpg" mode=""/>
+        </swiper-item>
+
+        <swiper-item>
+            <image style="width: 690rpx; height: 286rpx; display: inline-block; box-sizing: border-box" src="/images/banner2.jpg" mode=""/>
+        </swiper-item>
+
+        <swiper-item>
+            <image style="width: 690rpx; height: 288rpx; display: inline-block; box-sizing: border-box" src="/images/banner3.jpg" mode=""/>
+        </swiper-item>
+    </swiper>
+</view>
+
+<!-- 中间的导航栏 -->
+<view class="scrollNav">
+    <scroll-view scroll-x>
+
+        <navigator open-type="reLaunch" 
+        url="/pages/grape1/grape1" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/banner0.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                欧塞瓦
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape2/grape2" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/banner1.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                品丽珠
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape3/grape3" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/banner2.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                赤霞珠
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape4/grape4" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/banner3.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                霞多丽
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape5/grape5" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape1.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                梅洛
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape6/grape6" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape2.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                米勒图高
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape7/grape7" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape3.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                黑皮诺
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape8/grape8" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape4.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                雷司令
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape9/grape9" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape5.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                长相思
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape10/grape10" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape6.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                西拉
+            </view>
+        </navigator>
+        <navigator open-type="reLaunch" 
+        url="/pages/grape11/grape11" 
+        class="item"  wx:key="_id">
+            <view class="pic">
+                <image src="/images/grape4.jpg" mode=""/>
+            </view>
+
+            <view class="text">
+                丹魄
+            </view>
+        </navigator>
+    </scroll-view>
+</view>
+
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            introduce
+        </view>
+        <view class="cn">
+            小葡萄简介
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+<view class="content">
+      <view class="row">葡萄（学名：Vitis vinifera L.）为葡萄科葡萄属木质藤本植物，小枝圆柱形，有纵棱纹，无毛或被稀疏柔毛，叶卵圆形，圆锥花序密集或疏散，基部分枝发达，果实球形或椭圆形，花期4-5月，果期8-9月。
+葡萄是世界最古老的果树树种之一。葡萄为著名水果，生食或制葡萄干，并酿酒，酿酒后的酒脚可提酒食酸。</view>
+      <view class="row">从葡萄本身来说，葡萄对土地要求并不是很高，越是贫瘠的土地越会出产好的葡萄酒，这是在种植上非常神奇的一点。</view>
+      <view class="row">小葡萄是一款基于深度学习的小程序，你可以拍照上传图片，来判断葡萄的种类，同时你还可以看到类热力图，如果你发现特征编注不太对，可以联系我们，为我们的模型精进贡献一份力量</view>
+    </view>
+</view> 

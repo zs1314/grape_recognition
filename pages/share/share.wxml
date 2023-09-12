@@ -1,0 +1,8 @@
+<view class="image">
+  <image src="/images/1.png"></image>
+</view>
+<!-- 
+<view class="down" bindtap="downloadAlbum">
+  <image src="../../images/index-icon/down.png"></image>
+  <view class="font">保存海报</view>
+</view> -->

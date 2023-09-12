@@ -1,0 +1,14 @@
+<!--pages/cam/cam.wxml-->
+<grape-header></grape-header>
+<view class="view_main">
+  <image class="image_type" src="{{imagePath}}" mode="aspectFit" bindtap="chooseImage"></image>
+  <image class="button_type" bindtap="doClickWork" src="/images/camera.png"></image>
+  <text class="cam">CAM</text>
+  <image class="image_type" src="{{imagePath_cam}}" mode="aspectFit" ></image>
+  <view class="view_items" >
+    <view class="view_item">
+      <text class="text_main" >名称：{{class_name}}</text>
+      <text class="text_son">相似度：{{prob}}</text>
+    </view>
+  </view>
+</view>

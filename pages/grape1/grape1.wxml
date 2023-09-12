@@ -1,0 +1,28 @@
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            Auxerrois
+        </view>
+        <view class="cn">
+            欧塞瓦
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+    <view class="content">
+        <view class='small-title'> 起源：</view>
+        <view class="row">
+            欧塞瓦（Auxerrois）是起源于法国阿尔萨斯（Alsace）洛林（Lorraine）产区的白葡萄品种。有趣的是，法国卡奥尔（Cahors）产区内的红葡萄品种马尔贝克（Malbec）也会被叫做“欧塞瓦”，但与这里介绍的白葡萄品种完全不同。
+            根据DNA的图谱检测结果，欧塞瓦是皮诺（Pinot）和白高维斯（Gouais Blanc）的后代。因此，欧塞瓦是霞多丽（Chardonnay）、佳美（Gamay）和阿里高特（Aligote）等葡萄品种的兄弟</view>
+        <view class="small-title">品种特征和生长条件： </view>
+        <view class="row">欧塞瓦适宜生长在气候较寒冷的地区，如英国和法国北部，偏爱石灰岩土壤。它的成熟时间较早，果实颗粒小。另外，欧塞瓦的抗病性较差，易感染白粉病（Powdery Mildew）、灰霉病（Botrytis）和霜霉病（Downy Mildew），且易招致葡萄蔓蛾（Grapevine Moth）虫害。</view>
+        <view class="small-title">主要种植区域和特色：</view>
+        <view class="row">欧塞瓦的主要种植国家为法国。此外，德国和加拿大等国家也种植了少量欧塞瓦。
+</view>
+    </view>
+</view>

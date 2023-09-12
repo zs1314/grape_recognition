@@ -1,0 +1,27 @@
+<!-- 小程序的介绍 -->
+<view class="about">
+    <!-- 头部 -->
+    <view class="pubTitle">
+        <view class="en">
+            Tempranillo
+        </view>
+        <view class="cn">
+            丹魄
+        </view>
+        <view class="line">
+        </view>
+    </view>
+
+
+    <!-- 内容 -->
+    <view class="content">
+        <view class='small-title'>起源</view>
+        <view class="row">
+            丹魄起源于西班牙，兴于西班牙。是西班牙种植最广泛的红葡萄品种。一般被认为是西班牙的“贵族葡萄”，有人称其为西班牙的“赤霞珠”。在过去的100年中它渐渐被种植在了南美、美国、南非、澳大利亚和加拿大</view> 
+        <view class="small-title">特征 </view>
+        <view class="row">丹魄的根部对于钾的吸收很强，湿度对它生产的影响也很大。较冷的气候会给予葡萄较高的酸度，炎热的气候增加糖度和着色程度。在西班牙的杜罗河岸(Ribcradel Duero)，7月平均气温大约是21.4℃，在白天中午较低的谷地温度可以上升到40℃，而到了晚上则会出现很大的日较差，气温会下降到16℃。丹魄是少数可以适应这种急速变化气候的葡萄品种之一 [2] 。
+丹魄葡萄酒可以在其年轻时饮用，但最贵重的丹魄都是在橡木桶中陈酿了好多年的。丹魄酒呈红宝石色，酒中带有浆果、黑加仑、烟草、香草、皮革和药草的气息和味道，酒体饱满。</view>
+        <view class="small-title">分布范围</view>
+        <view class="row">西班牙、美国、葡萄牙、澳大利亚、新西兰、法国、阿根廷。</view>
+    </view>
+</view>
